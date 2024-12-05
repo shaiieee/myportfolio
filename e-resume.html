@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Welcome to SHAI website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bokor&family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"> 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>       
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logos.png.png"></a>
+            <div class="nav-links" id="navLinks">
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li><a href="interest.html">INTEREST</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="e-resume.html">E-RESUME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>  
+        </nav>
+        <h1>PORTFOLIO (CV)</h1>
+</section>
+    
+    
+    
+    
+    <style>
+        *{
+    margin: 0;
+    padding: 0;  
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(backg3.png);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+   color: black;
+   text-decoration: none;
+    font-size: 13px;
+   
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: deeppink;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+.text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: black;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: #ffb6c1; 
+    transition: 1s;
+}
+
+nav.fa{
+    display: none;
+}
+
+        .image-container {
+            margin-top: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-container img {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+        <div class="image-container">
+            <img src="resume.png.png" alt="CV Image">
+        </div>
+   
+<!-- --- Social Media ------->   
+    
+   <section class="social">
+       <h4>Social Media</h4>
+       <div class="social-icons">
+            <a href="https://wa.me/0146890308" class="icon whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        
+            <a href="https://www.instagram.com/saeryiinhz/" class="icon instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+            <a href="https://x.com/shhhzra" class="icon twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+       
+    </section> 
+    
